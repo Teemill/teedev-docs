@@ -18,7 +18,6 @@
 		"vuepress": "1.0.0"
 	},
 	"dependencies": {
-		"element-ui": "^2.11.1",
 		"querystringify": "^2.1.1"
 	}
 }
