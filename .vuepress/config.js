@@ -6,14 +6,26 @@ module.exports = {
    * Change theme, including navigation elements
    */
   themeConfig: {
-    sidebar: [
-      ['/', 'Home'],
-      ['/src/teedev/teedev.md', 'TeeDev Vue'],
-      ['/src/teedev-api/teedev-api.md', 'TeeDev Laravel'],
-      ['/src/teedev-docs/teedev-docs.md', 'TeeDev Docs'],
-    ],
+    sidebar: {
+      '/src/teedev/components/': [
+        ['components', 'Components'],
+        ['charts', 'Charts'],
+      ],
+      '/src/teedev/': [
+        ['teedev', 'TeeDev Vue'],
+        ['components/components', 'Components'],
+      ],
+      '/': [
+        ['', 'Home'],
+        ['src/teedev/teedev', 'TeeDev Vue'],
+        ['src/teedev-api/teedev-api', 'TeeDev Laravel'],
+        ['src/teedev-docs/teedev-docs', 'TeeDev Docs'],
+      ],
+    },
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Vue', link: '/src/teedev/' },
+      { text: 'Laravel', link: '/src/teedev-api/' },
     ]
   },
   /**
