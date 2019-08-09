@@ -29,6 +29,8 @@ module.exports = {
       { text: 'Laravel', link: '/src/teedev-api/' },
     ],
 
+    lastUpdated: 'Last updated',
+
     docsRepo: 'Teemill/teedev-docs',
     editLinks: true,
     editLinkText: 'Edit this page on GitHub'
