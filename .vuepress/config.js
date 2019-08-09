@@ -22,11 +22,16 @@ module.exports = {
         ['src/teedev-docs/teedev-docs', 'TeeDev Docs'],
       ],
     },
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Vue', link: '/src/teedev/' },
       { text: 'Laravel', link: '/src/teedev-api/' },
-    ]
+    ],
+
+    docsRepo: 'Teemill/teedev-docs',
+    editLinks: true,
+    editLinkText: 'Edit this page on GitHub'
   },
   /**
    * This defines the URL at which the docs will be served. This is
