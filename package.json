@@ -18,6 +18,8 @@
 		"vuepress": "1.0.0"
 	},
 	"dependencies": {
-		"querystringify": "^2.1.1"
+		"@teedev/components": "^1.0.2",
+		"querystringify": "^2.1.1",
+		"vuetify": "^2.0.5"
 	}
 }

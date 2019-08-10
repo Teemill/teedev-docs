@@ -2,7 +2,7 @@
 
 Charts are used to display data.
 
-<teedev-charts-TChart
+<Chart
   id="swag"
   :labels="[
     '12am-3am', '3am-6am', '6am-9am', '9am-12pm',
